@@ -1,5 +1,7 @@
 # To Percentage
 
+[![Build Status](https://travis-ci.org/johnotander/to-percentage.svg?branch=master)](https://travis-ci.org/johnotander/to-percentage)
+
 Convert percentages in float form to their corresponding string representations.
 
 ## Installation
