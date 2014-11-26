@@ -1,0 +1,27 @@
+{
+  "name": "to-percentage",
+  "version": "0.0.1",
+  "description": "Convert floats to string percentages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/to-percentage.git"
+  },
+  "keywords": [
+    "percentage",
+    "conversions",
+    "percentages"
+  ],
+  "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/to-percentage/issues"
+  },
+  "homepage": "https://github.com/johnotander/to-percentage",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
