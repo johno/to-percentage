@@ -10,11 +10,15 @@ describe('to-percentage', function() {
     assert.equal(toPercentage(0.500, 5), '50%');
   });
 
+  it('should round correctly', function() {
+    assert.equal(toPercentage(0.56789, 0), '57%');
+  });
+
   it('should handle 1 properly', function() {
     assert.equal(toPercentage(1, 101), '100%');
   });
 
-    it('should handle 9 properly', function() {
+  it('should handle 9 properly', function() {
     assert.equal(toPercentage(0, 101), '0%');
   });
 });

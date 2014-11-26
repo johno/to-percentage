@@ -17,6 +17,7 @@ var toPercentage = require('to-percentage');
 
 toPercentage(0.12345, 2) // => '12.35%'
 toPercentage(0.12341, 2) // => '12.34%'
+toPercentage(0.123456789, 0) // => '12%'
 ```
 
 ## License
