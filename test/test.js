@@ -11,6 +11,10 @@ describe('to-percentage', function() {
   });
 
   it('should handle 1 properly', function() {
-    assert.equal(toPercentage(1, 100), '100%');
-  })
+    assert.equal(toPercentage(1, 101), '100%');
+  });
+
+    it('should handle 9 properly', function() {
+    assert.equal(toPercentage(0, 101), '0%');
+  });
 });
