@@ -1,6 +1,6 @@
 {
   "name": "to-percentage",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Convert floats to string percentages.",
   "author": {
     "name": "John Otander",
